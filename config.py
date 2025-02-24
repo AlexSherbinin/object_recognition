@@ -1,0 +1,9 @@
+import cv2 as cv
+
+VIDEO = "http://192.168.1.19:4747/video"
+DEVICE = "cuda"
+MINIMAL_SCORE = 0.5
+BORDER_THICKNESS = 2
+COLOR = (0, 255, 0)
+FONT = cv.FONT_HERSHEY_COMPLEX 
+FONT_SCALE = 0.9
